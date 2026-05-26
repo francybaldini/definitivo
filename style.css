@@ -93,6 +93,11 @@ header{
     font-weight: bold;
 }
 
+.presentazione p{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
 
 /*navbar link*/
