@@ -1,0 +1,277 @@
+/*popup HJ*/
+.popup{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+/*nome intestativo del membro popup*/
+.titolo{
+    display: flex;
+    justify-content:center;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/*nome informazione del popup*/
+.info{
+    display: flex;
+    justify-content:flex-start;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/*domande nel popup*/
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+
+/*risposte nel popup*/
+.answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family:'Quicksand', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/*per togliere l'elenco puntato*/
+ul{
+    list-style: none;
+}
+
+/*POPUP sh*/
+.popup2{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup2.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+/*popup YH*/
+.popup3{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup3.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+/*popup YS*/
+.popup4{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup4.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+/*popup SAN*/
+.popup5{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow:0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup5.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+
+/*popup MINGI*/
+.popup6{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup6.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+
+/*popup WOOYOUNG*/
+.popup7{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup7.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
+
+
+
+/*popup JONGHO*/
+.popup8{
+    display: none;/*nascosta all'inizio*/
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 300px;
+
+    box-shadow: 0px 10px 25px black;
+}
+
+/*tasto per attivare il popup*/
+.popup8.active{
+    display: block;
+}
+
+/*tasto per chiudere il popup*/
+.close{
+    float: right;
+}
