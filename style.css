@@ -1,18 +1,17 @@
 .contenitore{
+    display: flex;
+    justify-content: center;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
 }
 
-/*per togliere lo slittamento a sx su mobile*/
-html, body{
-    margin: 0;
-    padding: 0;
+html{
     width: 100%;
-    overflow-x: hidden;
 }
 
-body{
+body {
+    margin: 3%;
     background: rgb(61, 81, 131);
     min-height: 100vh;
     display: flex;
@@ -101,12 +100,8 @@ header{
     max-width: 100%;
     width: 90%;
     padding: 15px;
-    box-sizing: border-box;
+    text-align: center;
 }
-
-
-
-
 
 
 /*navbar link*/
@@ -114,11 +109,13 @@ header{
     color: #faf8f2;
 }
 
-.gruppo{
+.gruppo ul{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap:wrap;
     gap: 10px;
+    padding: 5px;
+    margin: 10px;
 }
 
 /*per le foto*/
@@ -130,8 +127,6 @@ header{
     margin-top: 50px;  
     background: rgb(105, 123, 168);
     border-radius: 15px;
-    padding: 15px;
-    box-sizing: border-box;
 }
 
 /*immagini responsive*/
@@ -165,7 +160,6 @@ header{
 .membro6 img,
 .membro7 img,
 .membro8 img{
-    max-width: 100%;
     width: 180px;
     height: auto;
     margin-top: 20px;
